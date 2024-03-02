@@ -244,6 +244,49 @@ document.addEventListener("DOMContentLoaded", function () {
       imageUrl:
         "https://as1.ftcdn.net/v2/jpg/04/19/24/46/1000_F_419244664_nEHFaz4RkU4wOeuSepinU3ZW8wlNW4g9.jpg",
     },
+    {
+      id: 34,
+      title: "Ray-Ban",
+      description: "Solglasögon för Unisex",
+      imageUrl: "https://m.media-amazon.com/images/I/51HX4wtZXcL._AC_SX679_.jpg",
+    },
+    {
+      id: 35,
+      title: "Instax Mini 9 Kamera, Flamingo Rosa",
+      description: "Funktioner för olika fotograferingsmiljöer som landskap, porträtt och NATTfotografering",
+      imageUrl: "https://m.media-amazon.com/images/I/71aIMj1B7WL._AC_SL1500_.jpg",
+    },
+    {
+      id: 36,
+      title: "Tom Sellecks mustasch",
+      description: "En mustasch för män",
+      imageUrl: "https://cdn1.cdnme.se/cdn/9-2/2575511/images/2011/mustasch-magnum_136685064.jpg",
+    },
+    {
+      id: 37,
+      title: "Resepåse",
+      description: "Håll enkelt koll på alla dina ägodelar så du snabbt kan packa ihop när det är dags att gå för lunch",
+      imageUrl: "https://www.carepa.se/globalassets/connect-media/bild/23/232886_1274189_2.jpg?format=webp&width=400&height=400",
+    },
+    {
+      id: 38,
+      title: "Enkel tågresa till Stockholm",
+      description: "En enkel tågresa från Malmö till Stockholm. Du har även möjlighet att stanna innan slutdestination",
+      imageUrl: "https://static.vecteezy.com/ti/gratis-vektor/p1/12013563-lyx-kunglig-vinge-brev-sj-vapen-guld-farg-logotyp-vektor-seger-logotyp-vapen-logotyp-vinge-logotyp-vektor-logotyp-mall-vector.jpg",
+    },
+    {
+      id: 39,
+      title: "GraviTrax XXL Startpaket med över 100 kulor",
+      description: "Ålder: 8+ år",
+      imageUrl: "https://m.media-amazon.com/images/I/71ZmzjeWiDL._AC_SL1348_.jpg",
+    },
+    {
+      id: 40,
+      title: "Pojkstaty",
+      description: "En staty som kan påminna om hur det är att vara vattuman",
+      imageUrl: "https://imagebank.rosendahl.com/cdn/xZcCP0/Kahler-Astro-Special-name-White-693510-xZcCP0.png?d=6836",
+    }
+
 
     // Add more items as needed
   ];
@@ -260,20 +303,24 @@ document.addEventListener("DOMContentLoaded", function () {
           <button class="item-button">Välj produkt</button>
           <a href="mailto:anthon_present@yahoo.com?Subject=Jag%20vill%20ha%20detta&body=Jag%20vill%20ha%20en%20${item.title}%20id:%20${item.id}" class="mail-button">Bekräfta order</a>
       `;
-    card.querySelector(".item-button").addEventListener("click", function () {
-      const code = prompt(
-        "Skriv in den superhemliga koden för att välja produkten:"
-      );
-      if (checkCode(code)) {
-        document
-          .querySelectorAll(".item-card")
-          .forEach((c) => c.classList.remove("chosen-item"));
-        card.classList.add("chosen-item");
-        itemsContainer.prepend(card); // Move to the top
-      } else {
-        alert("Nej men Aaanthon nu blev det nog lite fel 🤪");
-      }
-    });
+    if(item.id === 32) {
+      card.querySelector(".item-button").addEventListener("click", fiboerror);
+    } else {
+      card.querySelector(".item-button").addEventListener("click", function () {
+        const code = prompt(
+          "Skriv in den superhemliga koden för att välja produkten:"
+        );
+        if (checkCode(code)) {
+          document
+            .querySelectorAll(".item-card")
+            .forEach((c) => c.classList.remove("chosen-item"));
+          card.classList.add("chosen-item");
+          itemsContainer.prepend(card); // Move to the top
+        } else {
+          alert("Nej men Aaanthon nu blev det nog lite fel 🤪");
+        }
+      });
+    }
     itemsContainer.appendChild(card);
   });
   const checkCode = (code) => {
@@ -286,3 +333,11 @@ document.addEventListener("DOMContentLoaded", function () {
     return sum === 305709;
   };
 });
+
+function fiboerror() {
+  if(confirm("Nu har du verkligen gjort det..")) {
+    fiboerror();
+  } else {
+    fiboerror();
+  }
+}
