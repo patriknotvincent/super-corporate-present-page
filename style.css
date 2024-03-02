@@ -6,18 +6,19 @@ html {
 }
 
 header {
-  background-color: #F8DC16;
+  background-color: #f8dc16;
   padding: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
 #logodiv {
   display: flex;
   justify-content: center;
-  align-items: center; /
+  align-items: center;
 }
 
 #logo {
@@ -26,20 +27,17 @@ h1, h2 {
 
 main {
   padding: 20px;
-  background-image: url('images/Skånska_flaggan.svg');
-  background-size:contain;
+  background-image: url("images/Skånska_flaggan.svg");
+  background-size: contain;
   background-attachment: fixed;
-
   background-position: top left;
-
   background-repeat: no-repeat;
-  background-color: #E33C29;
+  background-color: #e33c29;
 }
 
 body {
-  background-color: #E33C29;
+  background-color: #e33c29;
 }
-
 
 .item-card {
   background-color: rgb(255, 255, 255);
@@ -49,9 +47,24 @@ body {
   padding: 10px;
 }
 
+.item-card a {
+  display: none;
+}
+.item-card button {
+  display: inline;
+}
+
 .chosen-item {
-  border-color: green;
-  border-width: 4px;
+  border-color: rgb(40, 181, 40);
+  border-width: 6px;
+}
+
+.chosen-item a {
+  display: inline;
+}
+
+.chosen-item button {
+  display: none;
 }
 
 .item-card img {
@@ -75,4 +88,18 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.mail-button {
+  display: inline-block;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 25px; /* Top and bottom padding, left and right padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Change mouse cursor on hover */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s;
 }

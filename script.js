@@ -103,9 +103,146 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 15,
-      title: "Massage från BIG BALLS",
-      description: "Just a ACDC song ",
+      title: "Fyra timmar massage från BIG BALLS",
+      description: "Just a AC/DC song ",
       imageUrl: "/images/bigballs.png",
+    },
+    {
+      id: 16,
+      title: "Stöd för din cykel",
+      description:
+        "20st cykelstöd så du aldrig behöver lägga din cykel ned igen.",
+      imageUrl:
+        "https://productimages.biltema.com/v1/image/imagebyfilename/27-6001_xl_1.jpg",
+    },
+    {
+      id: 17,
+      title: "Poggio al Vento",
+      description:
+        "En finfin brunello från producenten Col d'Orcia årgång 2001(!). Här har du en härlig ålder som ger komplexa smaker av läder och gammal fåtölj. Antagligen svingott",
+      imageUrl:
+        "https://product-cdn.systembolaget.se/productimages/34707315/34707315_400.png?q=75&w=2000",
+    },
+    {
+      id: 18,
+      title: "Avståndsmätare",
+      description:
+        "En avståndsmätare som mäter med hjälp av laser, typ som på film! High-tech och användbart",
+      imageUrl:
+        "https://proffsmagasinet-res.cloudinary.com/images/f_auto/1005004/Bosch%20GLM%2040%20Avst%C3%A5ndsm%C3%A4tare.jpg",
+    },
+    {
+      id: 19,
+      title: "Jarth-It Maya aluminiumram Trio Whiteboard",
+      description:
+        "Whiteboard för att skriva och visa information, men också för att dölja konfidentiellt material",
+      imageUrl:
+        "https://m.media-amazon.com/images/I/51j75I46MeL._AC_SL1500_.jpg",
+    },
+    {
+      id: 20,
+      title: "Drick som Bond",
+      description: "Somalier somalier get me a Bollinger",
+      imageUrl:
+        "https://www.sparklingdirect.co.uk/cdn-cgi/image/width=200,quality=75/catimage/bollinger-champagne-magnum-150cl-in-wooden-gift-box-323.jpg",
+    },
+    {
+      id: 21,
+      title: "Din helt egna Aston Martin",
+      description:
+        "Glid mellan skrivbordsateraljer med din helt egna V12 Vantage!",
+      imageUrl:
+        "https://model-universe.com/wp-content/uploads/1-18-aston-martin-v12-vantage-roadster-01-1536x1024.jpg",
+    },
+    {
+      id: 22,
+      title: "Korslaser",
+      description:
+        "Bra när man ska sätta upp tavlor eller hyllor som gärna hänger rakt.",
+      imageUrl:
+        "https://proffsmagasinet-res.cloudinary.com/images/f_auto/ProductImage28840001/Bosch%20GCL%202-15%20Korslaser.jpg",
+    },
+    {
+      id: 23,
+      title: "Multimeter",
+      description: "Mätning av strömfrekvens/AC-spänning, riktigt effektiv.",
+      imageUrl: "https://m.media-amazon.com/images/I/61g5gMyQ08L._SL1500_.jpg",
+    },
+    {
+      id: 24,
+      title: "Chakrwalaigname",
+      description: "Aligna ditt rot-chakra",
+      imageUrl:
+        "https://media.post.rvohealth.io/wp-content/uploads/2020/08/7-chakras-header-1-800x700.png",
+    },
+    {
+      id: 25,
+      title: "BookBook macBook Pro case",
+      description:
+        "Perfekt att bära runt på för dig som vill låtsas att du är läskunning men egentligen bara har med dig en dator för att kunna porrsurfa med stor skärm på jobb-muggen",
+      imageUrl:
+        "https://www.iphonebutiken.se/files/2019/580x380/twelve-south-bookbook-macbook-pro-16-2021-1_x2.jpg",
+    },
+    {
+      id: 26,
+      title: "Dörrhandtag och / eller annat skoj",
+      description: "Polymorfistiskt dörrhandtag för utvärtes och invärtes bruk",
+      imageUrl:
+        "https://i.etsystatic.com/27849328/r/il/be8082/3641170076/il_794xN.3641170076_tls0.jpg",
+    },
+    {
+      id: 27,
+      title: "BARBERIANS - RAKSET",
+      description:
+        "Gör din skäggvård till en pretentiös stund för dig själv. Lås ute omvärlden och din sambo och njut av att gegga ner din haka med vitt skum i stil",
+      imageUrl:
+        "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt952ae62cdcbfdd2f/655350e19d8002040acbb954/artikelnr._21423_shaving_set_box_-_pic1.jpg?format=pjpg&auto=webp&quality=75%2C90&width=828",
+    },
+    {
+      id: 28,
+      title: "Presentkort på Grandpa",
+      description:
+        "Här finns kläder från Patagonia och annat skit som du gillar",
+      imageUrl:
+        "https://i0.wp.com/cartergood.com/wp-content/uploads/2016/11/Ripped-Grandpa.jpg?ssl=1",
+    },
+    {
+      id: 29,
+      title: "Le Creuset Signature gjutjärn",
+      description:
+        "Perfekt för alla värmekällor inklusive induktion och ugnen, Made in the land of love.",
+      imageUrl:
+        "https://m.media-amazon.com/images/I/61VE0vnDODL._AC_SL1500_.jpg",
+    },
+    {
+      id: 30,
+      title: "Rakapparat",
+      description: "Gör som andra män och sluta vara så fruktansvärt feminin",
+      imageUrl:
+        "https://www.elgiganten.se/image/dv_web_D1800010021147930/524973/remington-limitless-roterande-rakapparat-xr1770-x7--pdp_zoom-3000.jpg",
+    },
+    {
+      id: 31,
+      title: "Lär dig Objektorienterad Programmering med Java",
+      description:
+        "Perfekt för dig som önskar lära dig Objektorienterad Programmering med Java",
+      imageUrl:
+        "https://ubiqum.com/wp-content/uploads/2021/12/learn-java-with-ubiqum-logo.png",
+    },
+    {
+      id: 32,
+      title: "VÄLJ INTE DENNA!!!",
+      description: "Fatta ok",
+      imageUrl:
+        "https://play-lh.googleusercontent.com/U0semNERqZN8MlvzBgiXRoZHVcz4sBUu7YyEN2pQ5gxe8uXULG4Nos9sV5JD6TQNmA",
+    },
+    {
+      id: 33,
+      title: "NÄMEN ANTHUOON!",
+      description:
+        "En salongspilsk äldre kvinna som köper saker av dig som är större än vad hon förvantade sig ;). Kommer regelbundet att utbrista i ett ”Nämen Anthon!” som klingar med en kombination av tvivel, underhållning och en stänk av upphetsning",
+      imageUrl:
+        "https://as1.ftcdn.net/v2/jpg/04/19/24/46/1000_F_419244664_nEHFaz4RkU4wOeuSepinU3ZW8wlNW4g9.jpg",
     },
 
     // Add more items as needed
@@ -121,6 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <h2>${item.title}</h2>
           <p>${item.description}</p>
           <button class="item-button">Välj produkt</button>
+          <a href="mailto:anthon_present@yahoo.com?Subject=Jag%20vill%20ha%20detta&body=Jag%20vill%20ha%20en%20${item.title}%20id:%20${item.id}" class="mail-button">Bekräfta order</a>
       `;
     card.querySelector(".item-button").addEventListener("click", function () {
       const code = prompt(
