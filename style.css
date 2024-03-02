@@ -6,8 +6,12 @@ html {
 }
 
 header {
-  background-color: #f0f0f0;
+  background-color: #F8DC16;
   padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 #logodiv {
@@ -22,10 +26,24 @@ header {
 
 main {
   padding: 20px;
+  background-image: url('images/Skånska_flaggan.svg');
+  background-size:contain;
+  background-attachment: fixed;
+
+  background-position: top left;
+
+  background-repeat: no-repeat;
+  background-color: #E33C29;
 }
 
+body {
+  background-color: #E33C29;
+}
+
+
 .item-card {
-  border: 2px solid #ddd;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #000000;
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 10px;
