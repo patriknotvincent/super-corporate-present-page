@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: 15,
       title: "Fyra timmar massage från BIG BALLS",
       description: "Just a AC/DC song ",
-      imageUrl: "/images/bigballs.png",
+      imageUrl: "bigballs.png",
     },
     {
       id: 16,
